@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://nawsx0epqucv"]
+
+[ext_resource type="Script" uid="uid://cly3cej0371ds" path="res://Mover.cs" id="1_m6v8y"]
+
+[node name="MovementLab" type="Node2D" unique_id=1301458829]
+
+[node name="Mover" type="Node2D" parent="." unique_id=1921613697]
+position = Vector2(80, 360)
+script = ExtResource("1_m6v8y")
+
+[node name="Visual" type="Polygon2D" parent="Mover" unique_id=223088084]
+position = Vector2(20, -105)
+color = Color(0.9098039, 0.4392157, 0.39215687, 1)
+polygon = PackedVector2Array(-16, -24, 16, -24, 16, 24, -16, 24)
